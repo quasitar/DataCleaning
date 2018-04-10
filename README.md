@@ -10,13 +10,20 @@ Details about the data and the data cleaning are provided in the "CodeBook.md" f
 
 ### Instructions
 
-The "runAnalysis.R" file contains a funtion runAnalysis() which takes no parameters.
+The "runAnalysis.R" file contains a function runAnalysis() which takes no parameters.
 
-To execut the file:
+Note, the following packages are sourced in the executable:
+
+library(stringr)
+library(dplyr)
+
+Please be sure they are installed before you try and run the script.
+
+To execute the file:
 
 1. Place the "runAnalysis.R" file in your default R directory.
 
-2. Execute the the following commands in your R terminal:
+2. Execute the following commands in your R terminal:
    source("run_Analysis.R")
    run_Analysis()
 3. Once execution is complete, the file "tidyAccel.txt" will be generated in your default R directory.
