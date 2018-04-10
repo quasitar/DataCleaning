@@ -20,4 +20,3 @@ To execut the file:
    source("run_Analysis.R")
    run_Analysis()
 3. Once execution is complete, the file "tidyAccel.txt" will be generated in your default R directory.
-
